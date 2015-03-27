@@ -6,6 +6,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 .masthead {
   background-image: url("../images/logo.svg");
   background-size: 75px auto;
@@ -13,4 +17,14 @@ html {
   background-repeat: no-repeat;
   background-position: center top;
   text-align: center;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.learnmore {
+  background-color: #3B3A33;
+  padding: 1em;
 }
