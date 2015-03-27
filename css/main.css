@@ -11,11 +11,11 @@ body {
 }
 
 .masthead {
-  background-image: url("../images/logo.svg");
-  background-size: 75px auto;
-  padding: 6em;
-  background-repeat: no-repeat;
-  background-position: center top;
+  background-image: url("../images/logo.svg"), url("../images/green-cup.png");
+  background-size:75px auto, 200px auto;
+  padding-top: 6em;
+  background-repeat: no-repeat, repeat;
+  background-position: center 10px, left top;
   text-align: center;
 }
 
@@ -27,4 +27,14 @@ img {
 .learnmore {
   background-color: #3B3A33;
   padding: 1em;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  border-radius: 10px;
+  background-color: #7E7F7D;
+  background-image: linear-gradient(to bottom, #7E7F7D, #5B5E52);
 }
