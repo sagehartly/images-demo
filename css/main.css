@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after; {
+  box-sizing: inherit;
+}
+
+.masthead {
+  background-image: url("../images/logo.svg");
+  background-size: 75px auto;
+  padding: 6em;
+  background-repeat: no-repeat;
+  background-position: center top;
+  text-align: center;
+}
